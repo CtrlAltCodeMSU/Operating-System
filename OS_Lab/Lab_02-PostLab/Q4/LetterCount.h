@@ -9,7 +9,7 @@ using namespace std;
 
 class LetterCount{
 public:
-    LetterCount(string& filename);
+    LetterCount(const string& filename);
 
     int countLetters();
 private:

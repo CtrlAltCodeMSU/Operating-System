@@ -1,0 +1,4 @@
+Hello this is muhammad sana ullah
+this is a test file.
+It has multiple lines.
+Let's count letters, words, and lines!

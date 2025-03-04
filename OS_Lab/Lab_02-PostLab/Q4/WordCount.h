@@ -9,7 +9,7 @@ using namespace std;
 
 class WordCount {
     public:
-        WordCount(string& filename);
+        WordCount(const string& filename);
         int countWords();
     private:
         string filename;
