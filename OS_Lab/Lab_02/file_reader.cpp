@@ -9,15 +9,13 @@ int main(int argc, char *argv[]){
         return 1 ;
     }
     ifstream file(argv[1]);
-    if (!file)
-    {
+    if (!file){
         cout << "Error: file '" << argv[1] <<"' not found\n" ;
         return 1;
     }
     string line;
 
-    while (getline(file, line))
-    {
+    while (getline(file, line)){
         cout << line << endl;
     }
     
