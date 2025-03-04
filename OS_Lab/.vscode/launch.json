@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/sanaullah/Semester_IV/Operating_Systems/OS_Lab/Lab_02",
-      "program": "/home/sanaullah/Semester_IV/Operating_Systems/OS_Lab/Lab_02/build/Debug/outDebug",
+      "cwd": "/home/sanaullah/Semester_IV/Operating_Systems/OS_Lab/Lab_02-PostLab",
+      "program": "/home/sanaullah/Semester_IV/Operating_Systems/OS_Lab/Lab_02-PostLab/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
