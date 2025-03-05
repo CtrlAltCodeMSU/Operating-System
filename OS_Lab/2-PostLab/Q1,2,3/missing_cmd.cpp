@@ -24,8 +24,7 @@ int main(int argc, char *argv[]){
             break;
         }   
     }
-    if (missing==-1)
-    {
+    if (missing==-1){
         cout << "No missing Element Found!" ;
     }
 
@@ -34,9 +33,10 @@ int main(int argc, char *argv[]){
 
     if (outFile.is_open())
     {
+        outFile << "Missing Number is: " << endl;
         outFile << missing ;
         outFile.close();
-        cout << "Missing number " << missing << " written to missing_number.txt\n";
+        cout << "Missing number " << missing << " written to missing.txt\n";
     }
      else {
         cout << "Error writing to file.\n";
