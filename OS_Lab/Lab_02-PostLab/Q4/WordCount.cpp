@@ -6,8 +6,7 @@ WordCount::WordCount(const string& filename){
 
 int WordCount::countWords(){
     ifstream file(filename);
-    if (!file)
-    {
+    if (!file){
         cout << "Error cannot open file" ;
         return -1 ;
     }

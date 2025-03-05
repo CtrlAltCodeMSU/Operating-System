@@ -10,7 +10,7 @@ int LineCount::countLines(){
         cout << "Error Opening file" ;
         return -1 ;
     }
-    int lineCount ;
+    int lineCount = 0 ;
     string line;
 
     while (getline(file, line))
