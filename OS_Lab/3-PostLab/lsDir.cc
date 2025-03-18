@@ -2,7 +2,6 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <unistd.h>
-
 using namespace std;
 
 int main() {
@@ -14,13 +13,13 @@ int main() {
     }
 
     if (pid == 0) { 
-        cout << "Child process: Listing directory contents...\n" << endl;
+        cout << "Child process: Listing directory contents::::\n" << endl;
         execlp("ls", "ls", "-l", NULL); 
         cerr << "execlp failed!" << endl; 
         return 1;
     } else { 
         wait(NULL); 
-        cout << "\nParent process: Child has finished execution." << endl;
+        cout << "\nParent process: Child has finished execution::::" << endl;
     }
 
     return 0;
