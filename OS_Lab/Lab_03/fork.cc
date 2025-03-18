@@ -13,12 +13,12 @@ int main() {
         return 1;
     }
     else if (pid == 0) {
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 5; i++) {
             cout << "I am a child process" << endl;
         }
     }
     else { 
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 5; i++) {
             cout << "I am a parent process" << endl;
         }
         wait(NULL); 
