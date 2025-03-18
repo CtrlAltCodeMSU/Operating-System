@@ -27,8 +27,6 @@ int main(int argc, char *argv[]){
     if (missing==-1){
         cout << "No missing Element Found!" ;
     }
-
-
     ofstream outFile("missing.txt");
 
     if (outFile.is_open())
