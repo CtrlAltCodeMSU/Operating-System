@@ -6,20 +6,20 @@
 using namespace std;
 
 int main() {
-    pid_t pid = fork(); // Create child process
+    pid_t pid = fork(); 
 
-    if (pid < 0) { // Error in fork
+    if (pid < 0) { 
         cerr << "Fork failed!" << endl;
         return 1;
     }
 
-    if (pid == 0) { // Child process
+    if (pid == 0) { 
         cout << "Child process: Listing directory contents...\n" << endl;
-        execlp("ls", "ls", "-l", NULL); // Execute 'ls -l' command
-        cerr << "execlp failed!" << endl; // Only prints if execlp fails
+        execlp("ls", "ls", "-l", NULL); 
+        cerr << "execlp failed!" << endl; 
         return 1;
-    } else { // Parent process
-        wait(NULL); // Wait for child to complete
+    } else { 
+        wait(NULL); 
         cout << "\nParent process: Child has finished execution." << endl;
     }
 
